@@ -17,6 +17,7 @@ def downloadImg(url,path):
 		# 	os.mknod(imgpath)             
 		# 	pass
 		with open(path+'/'+imgpath,'wb') as fs:
+			print(path+'/'+imgpath,'wb');
 			fs.write(res.content)
 		fs.close()	
 		print("抓取成功")
