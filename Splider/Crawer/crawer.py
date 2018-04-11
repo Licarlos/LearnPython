@@ -16,7 +16,7 @@ local="F://git/Zj.PythonDemo/src/a.html"
 
 def automac_detect(a,b,c):
 
-  print  "%.2f%%"%( 100*(a*b/c))
+  print("%.2f%%"%( 100*(a*b/c)))
 
 urllib.urlretrieve(url ,local,automac_detect)
 
@@ -24,5 +24,5 @@ urllib.urlretrieve(url ,local,automac_detect)
 content=urllib.urlopen(url).read()
 
 charset=chardet.detect(content)
-print charset["encoding"]
+print(charset["encoding"])
 
