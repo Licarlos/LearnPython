@@ -16,5 +16,5 @@ def area(*args):
         end *= i;
     print(end);
     print(args);
-
+Print(sys.argv());
 area(5,2,3,6,7,8,9);
