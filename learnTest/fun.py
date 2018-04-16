@@ -16,5 +16,5 @@ def area(*args):
         end *= i;
     print(end);
     print(args);
-Print(sys.argv());
+#Print(sys.argv());pip
 area(5,2,3,6,7,8,9);
